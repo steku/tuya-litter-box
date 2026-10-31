@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Tuya Smart Litter Box",
+        "description": "Enter your Tuya local connection details.",
+        "data": {
+          "device_id": "Device ID",
+          "ip_address": "IP Address",
+          "local_key": "Local Key",
+          "protocol_version": "Protocol Version"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the litter box on the local network. Please verify the IP, key, and make sure the Tuya/Smart Life mobile app is closed."
+    },
+    "abort": {
+      "already_configured": "This litter box is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Litter Box Options",
+        "data": {
+          "scan_interval": "Polling Interval (seconds)"
+        }
+      }
+    }
+  }
+}
+
